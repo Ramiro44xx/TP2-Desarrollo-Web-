@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Ramiro Juárez
+        <p>Me gusta el futbol y el basquet y vivo en Barrio San Remo</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de Mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="acerca">
+        <h2>Experiencia Academica o Personal</h2>
+        <p>Mi primaria la hice en el colegio San Francisco de Asis y mi secundaria en el Colegio Divina Misericorida y el terciario actualmente en el Instituto Del milagro</p>
+    </section>
+    <h1>Contacto</h1>
+    <form action="/procesar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <article>
+        <h1>Messi Vs Cristiano Ronaldo </h1>
+        <p>Fecha de publicación: <time datetime="2023-02-07">7 de Febrero de 2023</time></p>
+        
+        <section>
+            <h2>Introducción</h2>
+            <p>La gran competencia entre dos de los mejores jugadores de la actualidad</p>
+        </section>
+
+        <section>
+            <h2>Sección 1</h2>
+            <p>Tenemos a Messi con sus 6 balones de oro</p>
+        </section>
+
+        <figure>
+            <img src="LSJYKGDGL5G6FEKB7SI6B6CWDY-1024x576.jpg" alt="Descripción de la imagen" width="800" height="500">
+            <figcaption></figcaption>
+        </figure>
+
+        <section>
+            <h2>Sección 2</h2>
+            <p>Tenemos a Cristiano Ronaldo con sus 5 balones de oro</p>
+        </section>
+
+        <figure>
+            <img src="7ed52ea9a6ca43061d2833d6577e24c2b52892fe.jpg" alt="Descripción de la imagen" width="800" height="500">
+            <figcaption></figcaption>
+        </figure>
+
+    </article>
+
+    
+
+</body>
+</html>
